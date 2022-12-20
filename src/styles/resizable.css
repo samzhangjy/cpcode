@@ -1,0 +1,30 @@
+@import "./variables.css";
+
+.resizable {
+  position: relative;
+}
+
+.resizer {
+  position: absolute;
+  background-color: var(--border);
+  transition: all 200ms;
+  z-index: 2;
+}
+
+.resizer-x {
+  cursor: col-resize;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 1px;
+}
+
+.resizer-x:hover {
+  width: 5px;
+  background-color: var(--primary);
+}
+
+.resizer-x:active {
+  background-color: var(--primary-dark);
+  width: 5px;
+}

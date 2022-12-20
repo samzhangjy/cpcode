@@ -1,0 +1,18 @@
+:root {
+    --primary-light: #818cf8;
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary-light: #2dd4bf;
+    --secondary: #14b8a6;
+    --secondary-dark: #0d9488;
+    --danger: #ef4444;
+    --danger-light: #f87171;
+    --danger-dark: #dc2626;
+    --warn: #eab308;
+    --warn-lught: #facc15;
+    --warn-dark: #ca8a04;
+    --border: #d1d5db;
+    --muted: #64748b;
+    --neutral: #f1f5f9;
+    --background: #ffffff;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cpcode",
+  "version": "0.0.0",
+  "description": "vite-plugin-electron-quick-start",
+  "main": "dist/electron/main.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.34.0",
+    "mousetrap": "^1.6.5",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/diff": "^5.0.2",
+    "@types/mousetrap": "^1.6.9",
+    "electron": "^19.0.6",
+    "electron-builder": "^23.1.0",
+    "electron-rebuild": "^3.2.9",
+    "typescript": "^4.7.4",
+    "vite": "^3.1.0",
+    "vite-plugin-electron": "^0.9.2",
+    "vite-plugin-esmodule": "^1.4.2",
+    "vite-plugin-monaco-editor": "^1.1.0",
+    "vite-plugin-node-polyfills": "^0.4.0"
+  }
+}

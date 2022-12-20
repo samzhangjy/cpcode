@@ -1,0 +1,51 @@
+@import "./variables.css";
+
+.button {
+  border: none;
+  padding: 10px;
+  transition: all 100ms;
+  margin: 0px;
+}
+
+.button-icon {
+  padding: 3px;
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.button-icon .icon {
+  top: 1px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.button-secondary:hover {
+  background-color: var(--secondary-dark);
+}
+
+.button-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.button-danger:hover {
+  background-color: var(--danger-dark);
+}
+
